@@ -1,0 +1,135 @@
+:root {
+  --brand-text-color: #2e2f42;
+  --brand-color: #4d5ae5;
+  --light-brand-color: #f4f4fd;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  letter-spacing: 0.32px;
+  background-color: white;
+}
+
+header {
+  border-bottom: 1px solid var(--cornflower, #e7e9fc);
+}
+.headings-color {
+  color: var(--brand-text-color);
+}
+
+/* header */
+.logo {
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.54px;
+}
+.logo-web {
+  color: var(--brand-color);
+}
+
+.tabs {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.adress-nav {
+  font-size: 16px;
+}
+
+/* main */
+.dark-background {
+  background-color: var(--brand-text-color);
+}
+
+.main-section h1 {
+  font-weight: 700;
+  font-size: 56px;
+  color: white;
+  line-height: 1.07;
+}
+
+.main-section button {
+  background-color: var(--brand-color);
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 4px;
+  line-height: 1.5;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.list-heading {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  line-height: 1.2;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.72px;
+  line-height: 1.11;
+}
+
+.team-section {
+  background-color: var(--light-brand-color);
+}
+
+.teammember {
+  background-color: white;
+  height: 380px;
+  width: 264px;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.active-projects {
+  height: 420px;
+  width: 360px;
+  height: 300;
+  border: 1px solid #e7e9fc;
+  background-color: white;
+}
+
+.filter button {
+  background-color: var(--light-brand-color);
+  color: var(--brand-color);
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid var(--cornflower, #e7e9fc);
+}
+
+.filter button:hover,
+.filter button:active,
+.filter button:focus {
+  background-color: var(--brand-color);
+  color: white;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+footer,
+footer .logo {
+  color: var(--light-brand-color);
+}
