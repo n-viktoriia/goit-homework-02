@@ -17,6 +17,7 @@
 .body {
   font-family: var(--primary-font);
   color: var(--text);
+  background-color: var(--white-background);
 }
 
 .link {
@@ -38,7 +39,9 @@ button {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   color: var(--primary-brand);
+  text-transform: uppercase;
 }
 .logo-light {
   color: var(--light);
@@ -51,7 +54,6 @@ button {
 
 /* Header */
 .header {
-  border-bottom: 1px solid var(--accent);
 }
 .header-nav {
 }
@@ -67,7 +69,8 @@ button {
   letter-spacing: 0.02em;
   color: var(--dark);
 }
-.nav-list-item:active {
+.nav-list-item:hover,
+.nav-list-item:focus {
   color: var(--pressed-state);
 }
 
@@ -75,15 +78,16 @@ button {
 .header-address {
 }
 .address {
+  font-style: normal;
 }
 .address-list {
 }
 .address-list-item {
-  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.mail:active {
+.address-list-item:first-of-type:hover,
+.address-list-item:first-of-type:focus {
   color: var(--pressed-state);
 }
 
@@ -97,7 +101,7 @@ button {
 }
 
 .introduction-title {
-  font-family: "Roboto";
+  text-align: center;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -106,8 +110,6 @@ button {
 
 .introduction-btn {
   background-color: var(--primary-brand);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -148,6 +150,7 @@ button {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 .explanation-list {
 }
@@ -164,6 +167,7 @@ button {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 .team-list {
 }
@@ -185,18 +189,26 @@ button {
 /* Portfolio */
 .projects {
 }
+.projects-title {
+}
 .filter-list {
 }
 .filter-list-item {
 }
 .filter-list-btn {
+  font-family: var(--primary-font);
   background-color: var(--light);
   color: var(--primary-brand);
   border: 1px solid var(--accent);
-  border-radius: 4px;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+}
+.filter-list-btn:hover,
+.filter-list-btn:focus {
+  background-color: var(--pressed-state);
+  color: var(--white-background);
 }
 .projects-list {
 }
