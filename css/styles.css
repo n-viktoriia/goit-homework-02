@@ -70,7 +70,6 @@ button {
   color: var(--dark);
 }
 .nav-list-item:hover,
-.nav-list-item:focus,
 .nav-list-item:active {
   color: var(--pressed-state);
 }
@@ -88,7 +87,6 @@ button {
   letter-spacing: 0.02em;
 }
 .address-list-item:first-of-type:hover,
-.address-list-item:first-of-type:focus,
 .address-list-item:first-of-type:active {
   color: var(--pressed-state);
 }
