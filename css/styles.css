@@ -69,11 +69,10 @@ button {
   letter-spacing: 0.02em;
   color: var(--dark);
 }
-.nav-list-item {
-}
-
-.nav-list-link:hover,
 .nav-list-link:focus {
+  color: var(--pressed-state);
+}
+.nav-list-link:hover {
   color: var(--pressed-state);
 }
 
@@ -89,11 +88,9 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.address-list-item {
-}
 
-.address-list-link:first-of-type:hover,
-.address-list-item:first-of-type:focus {
+.address-list > li:first-child:hover,
+.address-list > li:first-child:focus {
   color: var(--pressed-state);
 }
 
