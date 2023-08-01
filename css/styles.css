@@ -89,8 +89,8 @@ button {
   letter-spacing: 0.02em;
 }
 
-.address-list > li:first-child:hover,
-.address-list > li:first-child:focus {
+.address-list-item:first-child > a:hover,
+.address-list-item:first-child > a:focus {
   color: var(--pressed-state);
 }
 
