@@ -14,7 +14,7 @@
   --secondary-font: "Raleway", sans-serif;
 }
 
-.body {
+body {
   font-family: var(--primary-font);
   color: var(--text);
   background-color: var(--white-background);
@@ -65,10 +65,13 @@ button {
 }
 .nav-list-item {
   font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--dark);
 }
+.nav-list-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 .nav-list-link:focus {
   color: var(--pressed-state);
 }
@@ -85,6 +88,8 @@ button {
 .address-list {
 }
 .address-list-item {
+}
+.address-list-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -216,8 +221,6 @@ button {
 .projects-list {
 }
 .projects-list-item {
-  border: 1px solid var(--accent);
-  background: var(--white-background);
 }
 .projects-list-img {
 }
